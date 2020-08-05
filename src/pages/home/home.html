@@ -9,34 +9,13 @@
 
 <ion-content padding>
   <ion-row>
-    <ion-col col-6>
+    <ion-col col-6 *ngFor="let item of homeList">
       <ion-card>
-        111
-      </ion-card>
-    </ion-col>
-    <ion-col col-6>
-      <ion-card>
-        222
-      </ion-card>
-    </ion-col>
-    <ion-col col-6>
-      <ion-card>
-        333
-      </ion-card>
-    </ion-col>
-    <ion-col col-6>
-      <ion-card>
-        444
-      </ion-card>
-    </ion-col>
-    <ion-col col-6>
-      <ion-card>
-        555
-      </ion-card>
-    </ion-col>
-    <ion-col col-6>
-      <ion-card>
-        666
+        <ion-list no-lines>
+          <ion-item>
+            111
+          </ion-item>
+        </ion-list>
       </ion-card>
     </ion-col>
   </ion-row>

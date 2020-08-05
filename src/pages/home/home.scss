@@ -6,4 +6,12 @@ page-home {
     ion-card {
         height: 25rem;
     }
+
+    ion-card:hover, ion-item:hover {
+        background-color: #f0f0f0;
+    }
+
+    ion-card:active {
+        background-color: #0096FF;
+    }
 }
