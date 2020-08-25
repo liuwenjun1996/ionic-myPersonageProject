@@ -4,14 +4,20 @@ page-home {
     }
 
     ion-card {
-        height: 25rem;
+        height        : 25rem;
+        text-align    : center;
+        vertical-align: center;
+        font-size     : 30px;
+        font-weight   : 600;
     }
 
-    ion-card:hover, ion-item:hover {
+    ion-card:hover,
+    ion-item:hover {
         background-color: #f0f0f0;
+        border: 1px solid #0096ff;
     }
 
     ion-card:active {
-        background-color: #0096FF;
+        background-color: #999;
     }
 }

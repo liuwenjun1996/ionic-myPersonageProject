@@ -12,7 +12,7 @@ export class HomePage {
   }
 
   ionViewWillEnter() {
-    this.homeList = [{ value: '1' }, { value: 2 }, { value: 3 }, { value: 4 }, { value: 5 }, { value: 6 }];
+    this.homeList = [{ value: 'ionic3+angular5' }, { value: '小程序' }, { value: 'java' }, { value: 'angular' }, { value: "react" }, { value: 'vue3.X' }, { value: 'flutter' }, { value: '敬请期待' }];
   }
   ionViewDidEnter() {
 
